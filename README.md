@@ -79,13 +79,13 @@ Writing an OpenAPI Schema is time-consuming. So MarsCode has provided schema gen
 
 When building and deploying, this stage will genrate `metadata.json` file and then the file will be parsed to the final OpenAPI Schema.
 
-![gui-metadata](../../code_tmplates/images/cloud_function_baas_python/metadata.jpeg)
+![gui-metadata](https://lf-cdn.marscode.com/obj/eden-sg/ljhwz_lkpkbvsj/ljhwZthlaukjlkulzlp/project_template/prod/90236a980a703057205171a7951e4d18564db931/images/cloud_function_baas_python/metadata.jpeg)
 
 ## API Test
 
 MarsCode provides the API Test tool to help you test APIs.
 
-![gui-apitest](../../code_tmplates/images/cloud_function_baas_python/gui_apitest.png)
+![gui-apitest](https://lf-cdn.marscode.com/obj/eden-sg/ljhwz_lkpkbvsj/ljhwZthlaukjlkulzlp/project_template/prod/90236a980a703057205171a7951e4d18564db931/images/cloud_function_baas_python/gui_apitest.png)
 
 - Click the **API Test** button on the top to open the API Test panel. The test input data is automatically generated based on the JSON Schema file.
 - Click the **Send** button to send the request, and the response will be displayed in the output panel.
@@ -94,11 +94,11 @@ MarsCode provides the API Test tool to help you test APIs.
 
 MarsCode provides integrated cloud function hosting capabilities that you can use to quickly deploy cloud functions by clicking the **Deploy** button at the top.
 
-![gui-deployments](../../code_tmplates/images/cloud_function_baas_python/gui_deployments.png)
+![gui-deployments](https://lf-cdn.marscode.com/obj/eden-sg/ljhwz_lkpkbvsj/ljhwZthlaukjlkulzlp/project_template/prod/90236a980a703057205171a7951e4d18564db931/images/cloud_function_baas_python/gui_deployments.png)
 
 After deployment, you can get deployment details from the **Service Details** window.
 
-![gui-servicedetail](../../code_tmplates/images/cloud_function_baas_python/gui_servicedetail.png)
+![gui-servicedetail](https://lf-cdn.marscode.com/obj/eden-sg/ljhwz_lkpkbvsj/ljhwZthlaukjlkulzlp/project_template/prod/90236a980a703057205171a7951e4d18564db931/images/cloud_function_baas_python/gui_servicedetail.png)
 
 You can copy the schema, then paste it to [ChatGPT](https://chat.openai.com/gpts) to register an GPTs action.
 
@@ -108,17 +108,17 @@ You can copy the schema, then paste it to [ChatGPT](https://chat.openai.com/gpts
 
 2. Click the **Create** button.
 
-   ![create gpts action](../../code_tmplates/images/cloud_function_baas_python/gpt_create_action.jpeg)
+   ![create gpts action](https://lf-cdn.marscode.com/obj/eden-sg/ljhwz_lkpkbvsj/ljhwZthlaukjlkulzlp/project_template/prod/90236a980a703057205171a7951e4d18564db931/images/cloud_function_baas_python/gpt_create_action.jpeg)
 
 3. Fill in action information.
 
-   ![gpts action info](../../code_tmplates/images/cloud_function_baas_python/gpt_action_info.jpeg)
+   ![gpts action info](https://lf-cdn.marscode.com/obj/eden-sg/ljhwz_lkpkbvsj/ljhwZthlaukjlkulzlp/project_template/prod/90236a980a703057205171a7951e4d18564db931/images/cloud_function_baas_python/gpt_action_info.jpeg)
 
 4. Add actions.
 
    - Authentication
 
-     ![gpt_authentication](../../code_tmplates/images/cloud_function_baas_nodejs/gpt_authentication.jpeg)
+     ![gpt_authentication](https://lf-cdn.marscode.com/obj/eden-sg/ljhwz_lkpkbvsj/ljhwZthlaukjlkulzlp/project_template/prod/90236a980a703057205171a7951e4d18564db931/images/cloud_function_baas_nodejs/gpt_authentication.jpeg)
 
      - Authentication type: fill in **API key**.
      - API key: value can be obtained from the **Service Details** window, click **Token** to copy it.
@@ -128,15 +128,15 @@ You can copy the schema, then paste it to [ChatGPT](https://chat.openai.com/gpts
 
      - Obtain from the **Service Details** window, click **Schema** to copy it.
 
-       ![gpt action schema copy](../../code_tmplates/images/cloud_function_baas_python/gpt_action_schema_copy.jpeg)
+       ![gpt action schema copy](https://lf-cdn.marscode.com/obj/eden-sg/ljhwz_lkpkbvsj/ljhwZthlaukjlkulzlp/project_template/prod/90236a980a703057205171a7951e4d18564db931/images/cloud_function_baas_python/gpt_action_schema_copy.jpeg)
 
-       ![gpt action schema](../../code_tmplates/images/cloud_function_baas_python/gpt_action_schema.jpeg)
+       ![gpt action schema](https://lf-cdn.marscode.com/obj/eden-sg/ljhwz_lkpkbvsj/ljhwZthlaukjlkulzlp/project_template/prod/90236a980a703057205171a7951e4d18564db931/images/cloud_function_baas_python/gpt_action_schema.jpeg)
 
      - Import from URL.
 
-       ![gpt schema url copy](../../code_tmplates/images/cloud_function_baas_python/gpt_schema_url_copy.jpeg)
+       ![gpt schema url copy](https://lf-cdn.marscode.com/obj/eden-sg/ljhwz_lkpkbvsj/ljhwZthlaukjlkulzlp/project_template/prod/90236a980a703057205171a7951e4d18564db931/images/cloud_function_baas_python/gpt_schema_url_copy.jpeg)
 
-       ![gpt schema url](../../code_tmplates/images/cloud_function_baas_python/gpt_schema_url.jpeg)
+       ![gpt schema url](https://lf-cdn.marscode.com/obj/eden-sg/ljhwz_lkpkbvsj/ljhwZthlaukjlkulzlp/project_template/prod/90236a980a703057205171a7951e4d18564db931/images/cloud_function_baas_python/gpt_schema_url.jpeg)
 
 5. Click the **Save** button to save the action.
 
