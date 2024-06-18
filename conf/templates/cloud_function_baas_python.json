@@ -1,0 +1,47 @@
+{
+  "BasicInfo": {
+    "Name": "Python for AI Plugin",
+    "Slug": "cloud_function_baas_python",
+    "Description": "Python runtime environment for developing GPTs Actions. It provides out-of-the-box deployment and storage capabilities.",
+    "Categories": [
+      "AI"
+    ],
+    "ProjectType": "faas",
+    "IsRecommend": true,
+    "Languages": [
+      "Python"
+    ],
+    "Deployment": [
+      "Serverless"
+    ],
+    "Storage": [
+      "Redis",
+      "File"
+    ]
+  },
+  "Runtime": {
+    "RuntimeTemplate": "python",
+    "Envs": {
+      "CLOUDIDE_CONFIG_LANGUAGE": "python",
+      "CLOUDIDE_CONFIG_RUNTIME": "python"
+    },
+    "Commands": {
+      "BeforeStart": {
+        "Name": ""
+      },
+      "AfterStart": {
+        "Name": ""
+      },
+      "OnInit": {
+        "Name": "init",
+        "Script": [
+          "bash",
+          "-lc",
+          "poetry config virtualenvs.in-project true && poetry install"
+        ]
+      }
+    }
+  },
+  "Ide": {},
+  "Service": {}
+}

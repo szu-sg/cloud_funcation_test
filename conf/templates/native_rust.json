@@ -1,0 +1,35 @@
+{
+  "BasicInfo": {
+    "Name": "Rust",
+    "Slug": "native_rust",
+    "Description": "A simple 'hello-world' project template using the Rust 1.76.0 runtime environment.",
+    "Categories": [
+      "Languages"
+    ],
+    "ProjectType": "native",
+    "Languages": [
+      "Rust"
+    ]
+  },
+  "Runtime": {
+    "RuntimeTemplate": "rust",
+    "Envs": {
+      "CLOUDIDE_CONFIG_LANGUAGE": "rust",
+      "CLOUDIDE_CONFIG_RUNTIME": "rust",
+      "CLOUDIDE_DEFAULT_RUN_CONFIGURATION": "{\"type\":\"lldb\",\"request\":\"launch\",\"name\":\"Debug executable\",\"cargo\":{\"args\":[\"build\"]},\"args\":[],\"cwd\":\"${workspaceFolder}\"}"
+    },
+    "Commands": {
+      "BeforeStart": {
+        "Name": ""
+      },
+      "AfterStart": {
+        "Name": ""
+      },
+      "OnInit": {
+        "Name": ""
+      }
+    }
+  },
+  "Ide": {},
+  "Service": {}
+}

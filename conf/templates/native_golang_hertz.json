@@ -1,0 +1,40 @@
+{
+    "BasicInfo": {
+      "Name": "Hertz",
+      "Slug": "native_golang_hertz",
+      "Description": "A template for developing a simple Hertz project.",
+      "Categories": [
+        "Websites"
+      ],
+      "ProjectType": "native",
+      "Languages": [
+        "Golang"
+      ]
+    },
+    "Runtime": {
+      "RuntimeTemplate": "golang",
+      "Envs": {
+        "CLOUDIDE_CONFIG_LANGUAGE": "golang",
+        "CLOUDIDE_CONFIG_RUNTIME": "golang",
+        "CLOUDIDE_DEFAULT_RUN_CONFIGURATION": "{ \"name\":\"go run\",\"type\":\"go\",\"request\":\"launch\",\"args\":[],\"program\":\"${workspaceFolder}\"}"
+      },
+      "Commands": {
+        "BeforeStart": {
+          "Name": ""
+        },
+        "AfterStart": {
+          "Name": ""
+        },
+        "OnInit": {
+            "Name": "install dependency",
+            "Script": [
+              "bash",
+              "-lc",
+              "go mod tidy"
+            ]
+        }
+      }
+    },
+    "Ide": {},
+    "Service": {}
+  }

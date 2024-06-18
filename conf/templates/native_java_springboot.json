@@ -1,0 +1,34 @@
+{
+  "BasicInfo": {
+    "Name": "Springboot",
+    "Slug": "native_java_springboot",
+    "Description": "Leverage SpringBoot to develop web services using the Java runtime environment.",
+    "Categories": [
+      "Websites"
+    ],
+    "ProjectType": "native",
+    "Languages": [
+      "Java"
+    ]
+  },
+  "Runtime": {
+    "RuntimeTemplate": "java",
+    "Envs": {
+      "CLOUDIDE_CONFIG_LANGUAGE": "java",
+      "CLOUDIDE_CONFIG_RUNTIME": "java"
+    },
+    "Commands": {
+      "BeforeStart": {
+        "Name": ""
+      },
+      "AfterStart": {
+        "Name": ""
+      },
+      "OnInit": {
+        "Name": ""
+      }
+    }
+  },
+  "Ide": {},
+  "Service": {}
+}

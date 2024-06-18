@@ -1,0 +1,34 @@
+{
+  "BasicInfo": {
+    "Name": "Java",
+    "Slug": "native_java",
+    "Description": "Quickly start a Java 'Hello world' project in seconds using the JDK-17 runtime environment.",
+    "Categories": [
+      "Languages"
+    ],
+    "ProjectType": "native",
+    "Languages": [
+      "Java"
+    ]
+  },
+  "Runtime": {
+    "RuntimeTemplate": "java",
+    "Envs": {
+      "CLOUDIDE_CONFIG_LANGUAGE": "java",
+      "CLOUDIDE_CONFIG_RUNTIME": "java"
+    },
+    "Commands": {
+      "BeforeStart": {
+        "Name": ""
+      },
+      "AfterStart": {
+        "Name": ""
+      },
+      "OnInit": {
+        "Name": ""
+      }
+    }
+  },
+  "Ide": {},
+  "Service": {}
+}

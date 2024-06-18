@@ -1,0 +1,86 @@
+cn:
+  locale: zh
+  cdnPrefix: "https://lf-cdn.marscode.com.cn/obj/eden-cn/ljhwz_lkpkbvsj/ljhwZthlaukjlkulzlp/project_template/"
+  slug:
+    - native_python
+    - native_nodejs
+    - native_golang
+    - native_html_css_js
+    - native_cpp
+    - native_c
+    - native_java
+    - native_typescript
+    - native_rust
+    - native_moonbit
+    - blank
+    - native_nodejs_react
+    - native_python_flask
+    - native_python_django
+    - native_nodejs_nextjs
+    - native_nodejs_vue
+    - native_java_springboot
+    - native_golang_gin
+    - native_golang_hertz
+    - native_nodejs_http
+    - native_nodejs_koa
+    - native_nodejs_nest
+    - native_python_http
+
+sg:
+  locale: en
+  cdnPrefix: https://lf-cdn.marscode.com/obj/eden-sg/ljhwz_lkpkbvsj/ljhwZthlaukjlkulzlp/project_template/
+  slug:
+    - cloud_function_baas_nodejs
+    - cloud_function_baas_python
+    - native_python
+    - native_html_css_js
+    - native_cpp
+    - native_c
+    - native_java
+    - native_nodejs
+    - native_typescript
+    - native_golang
+    - native_rust
+    - native_moonbit
+    - blank
+    - native_nodejs_react
+    - native_python_flask
+    - native_python_django
+    - native_nodejs_nextjs
+    - native_nodejs_vue
+    - native_java_springboot
+    - native_golang_gin
+    - native_golang_hertz
+    - native_nodejs_http
+    - native_nodejs_koa
+    - native_nodejs_nest
+    - native_python_http
+va:
+  locale: en
+  cdnPrefix: https://lf-cdn.marscode.com/obj/eden-va2/ljhwz_lkpkbvsj/ljhwZthlaukjlkulzlp/project_template/
+  slug:
+    - cloud_function_baas_nodejs
+    - cloud_function_baas_python
+    - native_python
+    - native_html_css_js
+    - native_cpp
+    - native_c
+    - native_java
+    - native_nodejs
+    - native_typescript
+    - native_golang
+    - native_rust
+    - native_moonbit
+    - blank
+    - native_nodejs_react
+    - native_python_flask
+    - native_python_django
+    - native_nodejs_nextjs
+    - native_nodejs_vue
+    - native_java_springboot
+    - native_golang_gin
+    - native_golang_hertz
+    - native_nodejs_http
+    - native_nodejs_koa
+    - native_nodejs_nest
+    - native_python_http
