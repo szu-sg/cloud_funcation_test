@@ -1,0 +1,225 @@
+{
+  "api/todo/create.py": {
+    "name": "api_todo_create",
+    "description": "Create a todo",
+    "input": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "name of todo",
+          "title": "Name"
+        }
+      },
+      "required": ["name"],
+      "additionalProperties": false,
+      "title": "Input",
+      "description": "Function input input"
+    },
+    "output": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "integer",
+          "description": "status code of output",
+          "title": "Code"
+        },
+        "message": {
+          "type": "string",
+          "description": "this is the message of output",
+          "title": "Message"
+        },
+        "data": {
+          "additionalProperties": {
+            "description": "Special type indicating an unconstrained type."
+          },
+          "description": "this is the data of output",
+          "title": "Data",
+          "type": "object",
+          "nullable": true
+        }
+      },
+      "required": ["code", "message"],
+      "additionalProperties": false,
+      "title": "Output",
+      "description": "Function output data"
+    }
+  },
+  "api/todo/delete.py": {
+    "name": "api_todo_delete",
+    "description": "Delete a todo",
+    "input": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "name of todo",
+          "title": "Name"
+        }
+      },
+      "required": ["name"],
+      "additionalProperties": false,
+      "title": "Input",
+      "description": "Function input input"
+    },
+    "output": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "integer",
+          "description": "status code of output",
+          "title": "Code"
+        },
+        "message": {
+          "type": "string",
+          "description": "this is the message of output",
+          "title": "Message"
+        },
+        "data": {
+          "additionalProperties": {
+            "description": "Special type indicating an unconstrained type."
+          },
+          "description": "this is the data of output",
+          "title": "Data",
+          "type": "object",
+          "nullable": true
+        }
+      },
+      "required": ["code", "message"],
+      "additionalProperties": false,
+      "title": "Output",
+      "description": "Function output data"
+    }
+  },
+  "api/todo/edit.py": {
+    "name": "api_todo_edit",
+    "description": "Edit a todo",
+    "input": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "name of todo",
+          "title": "Name"
+        },
+        "state": {
+          "type": "integer",
+          "description": "state of todo, 1: active, 2: completed,",
+          "title": "State"
+        }
+      },
+      "required": ["name", "state"],
+      "additionalProperties": false,
+      "title": "Input",
+      "description": "Function input input"
+    },
+    "output": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "integer",
+          "description": "status code of output",
+          "title": "Code"
+        },
+        "message": {
+          "type": "string",
+          "description": "this is the message of output",
+          "title": "Message"
+        },
+        "data": {
+          "additionalProperties": {
+            "description": "Special type indicating an unconstrained type."
+          },
+          "description": "this is the data of output",
+          "title": "Data",
+          "type": "object",
+          "nullable": true
+        }
+      },
+      "required": ["code", "message"],
+      "additionalProperties": false,
+      "title": "Output",
+      "description": "Function output data"
+    }
+  },
+  "api/todo/search.py": {
+    "name": "api_todo_search",
+    "description": "Search todos",
+    "input": {
+      "type": "object",
+      "properties": {
+        "state": {
+          "type": "integer",
+          "description": "state of todo, 1: active, 2: completed,",
+          "title": "State",
+          "nullable": true
+        }
+      },
+      "required": [],
+      "additionalProperties": false,
+      "title": "Input",
+      "description": "Function input input"
+    },
+    "output": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "integer",
+          "description": "status code of output",
+          "title": "Code"
+        },
+        "message": {
+          "type": "string",
+          "description": "this is the message of output",
+          "title": "Message"
+        },
+        "data": {
+          "additionalProperties": {
+            "description": "Special type indicating an unconstrained type."
+          },
+          "description": "this is the data of output",
+          "title": "Data",
+          "type": "object",
+          "nullable": true
+        }
+      },
+      "required": ["code", "message"],
+      "additionalProperties": false,
+      "title": "Output",
+      "description": "Function output data"
+    }
+  },
+  "api/sayhi/hello.py": {
+    "name": "api_sayhi_hello",
+    "description": "Say hello to the user when he introduces himself",
+    "input": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "description": "name of user",
+          "title": "Name",
+          "type": "string",
+          "nullable": true
+        }
+      },
+      "required": [],
+      "additionalProperties": false,
+      "title": "Input",
+      "description": "Function input params"
+    },
+    "output": {
+      "type": "object",
+      "properties": {
+        "message": {
+          "type": "string",
+          "description": "reply to greet the user",
+          "title": "Message"
+        }
+      },
+      "required": ["message"],
+      "additionalProperties": false,
+      "title": "Output",
+      "description": "Function output data"
+    }
+  }
+}
