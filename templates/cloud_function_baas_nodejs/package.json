@@ -1,6 +1,0 @@
-{
-  "name": "ai_plugin_demo",
-  "dependencies": {
-    "@marscode/baas-sdk": "^1.0.1"
-  }
-}
