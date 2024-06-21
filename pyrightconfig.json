@@ -1,8 +1,0 @@
-{
-  "pythonPlatform": "Linux",
-  "typeCheckingMode": "basic",
-  "reportMissingModuleSource": "none",
-  "reportReturnType": false,
-  "include": ["."],
-  "exclude": ["runtime", ".venv"]
-}

@@ -1,2 +1,0 @@
-apischema==0.18.1
-docstring_parser==0.15
